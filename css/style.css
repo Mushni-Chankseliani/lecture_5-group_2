@@ -1,0 +1,143 @@
+/*header start*/
+
+.header {
+	background-color: lightgray;
+	padding: 20px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+.logo {
+	vertical-align: middle;
+	margin-right: 50px;
+}
+
+.nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav-li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+/*header end*/
+
+/*section 1 start*/
+.section-1 {
+	margin-top: 57.42px;
+	margin-bottom: 50px;
+}
+
+.section-1-text {
+	width: 500px;
+	background-color: blue;
+}
+/*section 1 end*/
+
+/*section 2 start*/
+.section-2 {
+	margin-bottom: 50px;
+}
+
+.section-2-relative {
+	width: 500px;
+	height: 500px;
+	background-color: blueviolet;
+	border: 1px solid black;
+	position: relative;
+}
+
+.section-2-absolute-1 {
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+
+}
+
+.section-2-absolute-2 {
+	width: 100px;
+	height: 100px;
+	background-color: darkred;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	z-index: 1;
+
+}
+
+.section-2-absolute-3 {
+	width: 100px;
+	height: 100px;
+	background-color: darkblue;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	z-index: 1;
+
+}
+/*section 2 end*/
+
+/*section 3 start*/
+.section-3 {
+	margin-bottom: 50px;
+}
+
+.section-3-relative {
+	position: relative;
+	width: 700px;
+	height: 700px;
+	background-color: darkblue;
+}
+
+.section-3-absolute {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background-color: darkred;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+/*section 3 end*/
+/*section 4 start*/
+.section-4 {
+	margin-bottom: 100px;
+}
+
+.section-4-relative {
+	position: relative;
+	display: inline-block;
+}
+
+.custom-text {
+	font-size: 32px;
+	color: red;
+	position: absolute;
+	margin: 0 auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+/*section 4 end*/
+
+/*other*/
+.fixed-icon {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	z-index: 1000;
+}
+
+.fixed-icon-img {
+	width: 50px;
+}
+/*other*/
